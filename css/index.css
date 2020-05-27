@@ -1,9 +1,8 @@
-.main {
-  width: 400px;
-  height: 400px;
-  background-color: yellow;
+ul {
+  margin: 0;
+  padding: 0;
 }
 
-.main:hover{
-  box-shadow:  10px 10px 5px red;
+form {
+  margin-bottom: 10px;
 }
