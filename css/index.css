@@ -1,0 +1,9 @@
+.main {
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+}
+
+.main:hover{
+  box-shadow:  10px 10px 5px red;
+}
