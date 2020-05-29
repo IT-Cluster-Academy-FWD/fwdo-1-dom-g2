@@ -1,8 +1,12 @@
 const $dreamCar = document.getElementById('dream-car');
-const $dreamCarButtons = document.querySelectorAll('#dream-car li button')
+const $dreamCarButtons = document.querySelectorAll('#dream-cars li button');
 
-for ($dreamCarItem of $dreamCar) {
-  $dreamCarItem.addEventListener('click', function() {
-    $dreamCarItem.parentElement.remove();
-  });
+console.log($dreamCar);
+console.log($dreamCarButtons);
+
+for (let $dreamCarItem of $dreamCarButtons) {
+  $dreamCarItem.addEventListener('click', function (){
+    $dreamCarItem.parentElement.style.color = "white";
+    $dreamCarItem.parentElement.style.background = "blue";
+  })
 }
